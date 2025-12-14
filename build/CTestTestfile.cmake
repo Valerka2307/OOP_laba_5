@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/ValCombucha/CPP_Programming/oop_laba_5
+# Build directory: C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(AllocationTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/Debug/allocation_tests.exe")
+  set_tests_properties(AllocationTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;56;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(AllocationTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/Release/allocation_tests.exe")
+  set_tests_properties(AllocationTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;56;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(AllocationTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/MinSizeRel/allocation_tests.exe")
+  set_tests_properties(AllocationTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;56;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(AllocationTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/RelWithDebInfo/allocation_tests.exe")
+  set_tests_properties(AllocationTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;56;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+else()
+  add_test(AllocationTests NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(IteratorTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/Debug/iterator_tests.exe")
+  set_tests_properties(IteratorTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;72;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(IteratorTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/Release/iterator_tests.exe")
+  set_tests_properties(IteratorTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;72;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(IteratorTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/MinSizeRel/iterator_tests.exe")
+  set_tests_properties(IteratorTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;72;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(IteratorTests "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/RelWithDebInfo/iterator_tests.exe")
+  set_tests_properties(IteratorTests PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;72;add_test;C:/Users/ValCombucha/CPP_Programming/oop_laba_5/CMakeLists.txt;0;")
+else()
+  add_test(IteratorTests NOT_AVAILABLE)
+endif()
+subdirs("_deps/googletest-build")

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/45fb3ec11e9044b25d9d2b0cc49ad203/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/97b1ea4159cf4173e4b990e783a0b9eb/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/ValCombucha/CPP_Programming/oop_laba_5/build/_deps/googletest-subbuild/CMakeFiles/2f6c1000195df246fbb68941bd30867c/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
